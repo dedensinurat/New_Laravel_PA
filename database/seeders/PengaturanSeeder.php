@@ -14,8 +14,8 @@ class PengaturanSeeder extends Seeder
     public function run(): void
     {
         Pengaturan::create([
-            'name' => 'Nama Sekolah',
-            'logo' => 'assets/img/p-250.png'
+            'name' => 'VokasiTera',
+            'logo' => 'assets/img/login.jpg'
         ]);
     }
 }

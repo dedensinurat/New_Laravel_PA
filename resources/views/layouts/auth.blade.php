@@ -14,8 +14,8 @@
                 <div class="row">
                     <div class="col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-lg-6 offset-lg-3">
                         <div class="login-brand">
-                            <img src="{{ URL::asset($pengaturan->logo) ?? 'https://via.placeholder.com/300' }}" alt="logo" width="100" class="shadow-lights">
-                            <p class="mt-4">{{ $pengaturan->name ?? config('app.name') }}</p>
+                            <img src="{{ URL::asset($pengaturan->logo) ?? 'https://via.placeholder.com/300' }}" alt="logo" width="350" class="shadow-lights">
+                            {{-- <p class="mt-4">{{ $pengaturan->name ?? config('app.name') }}</p> --}}
                         </div>
                         @if(session()->has('info'))
                         <div class="alert alert-primary">
