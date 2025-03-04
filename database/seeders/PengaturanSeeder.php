@@ -15,7 +15,7 @@ class PengaturanSeeder extends Seeder
     {
         Pengaturan::create([
             'name' => 'VokasiTera',
-            'logo' => 'assets/img/login.jpg'
+            'logo' => 'assets/img/Logovokasi.png'
         ]);
     }
 }

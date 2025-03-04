@@ -19,7 +19,7 @@
                             <div class="card-body text-center">
                                 <!-- Logo -->
                                 <div class="login-brand">
-                                    <img src="{{ URL::asset($pengaturan->logo) ?? 'https://via.placeholder.com/300' }}" alt="logo" width="250" class="shadow-light">
+                                    <img src="{{ URL::asset($pengaturan->logo) ?? 'https://via.placeholder.com/300' }}" alt="logo" width="250">
                                 </div>
                                 {{-- 
                                 <h2 class="text-primary" style="font-weight: bold; line-height: 1;">Vokasi<span style="color: #1faca5;">Tera</span></h2>
