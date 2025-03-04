@@ -23,16 +23,6 @@
         @enderror
     </div>
 
-    <div class="form-group d-flex justify-content-between">
-        <div class="custom-control custom-checkbox">
-            <input type="checkbox" name="remember" class="custom-control-input" id="remember" {{ old('remember') ? 'checked' : '' }}>
-            <label class="custom-control-label" for="remember">Remember Me</label>
-        </div>
-        @if (Route::has('password.request'))
-            <a class="text-small" href="{{ route('password.request') }}">Forgot Password?</a>
-        @endif
-    </div>
-
     <div class="form-group">
         <button type="submit" class="btn btn-lg btn-block text-white" style="background-color: #6C46A1; border-radius: 8px;">
             Login
